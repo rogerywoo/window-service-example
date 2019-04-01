@@ -85,15 +85,18 @@ namespace my_service
 
                     using (MemoryMappedViewStream stream = mmf.CreateViewStream())
                     {
-                        string strSettings;
-                        BinaryReader reader = new BinaryReader(stream);
-                        strSettings = reader.ReadString();
+                        if (stream.Length > 0)
+                        {
+                            string strSettings;
+                            BinaryReader reader = new BinaryReader(stream);
+                            strSettings = reader.ReadString();
 
-                        settings = (Settings)JsonConvert.DeserializeObject(strSettings, typeof(Settings));
+                            settings = (Settings)JsonConvert.DeserializeObject(strSettings, typeof(Settings));
 
-                        _inputFolder = settings.inputFolder;
+                            _inputFolder = settings.inputFolder;
 
-                        _outputFolder = settings.outputFolder;
+                            _outputFolder = settings.outputFolder;
+                        }
                     }
 
                     if (!mutexCreated)

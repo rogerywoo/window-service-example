@@ -1,6 +1,3 @@
-C:\Projects\window-service-example\my-service\my-service-form-app\bin\Debug\my-service-form-app.exe.config
-C:\Projects\window-service-example\my-service\my-service-form-app\bin\Debug\my-service-form-app.exe
-C:\Projects\window-service-example\my-service\my-service-form-app\bin\Debug\my-service-form-app.pdb
 C:\Projects\window-service-example\my-service\my-service-form-app\bin\Debug\my-service-library.dll
 C:\Projects\window-service-example\my-service\my-service-form-app\bin\Debug\my-service-library.pdb
 C:\Projects\window-service-example\my-service\my-service-form-app\obj\Debug\my-service-form-app.csprojAssemblyReference.cache
@@ -8,9 +5,12 @@ C:\Projects\window-service-example\my-service\my-service-form-app\obj\Debug\my_s
 C:\Projects\window-service-example\my-service\my-service-form-app\obj\Debug\my-service-form-app.csproj.GenerateResource.cache
 C:\Projects\window-service-example\my-service\my-service-form-app\obj\Debug\my-service-form-app.csproj.CoreCompileInputs.cache
 C:\Projects\window-service-example\my-service\my-service-form-app\obj\Debug\my-service-form-app.csproj.CopyComplete
-C:\Projects\window-service-example\my-service\my-service-form-app\obj\Debug\my-service-form-app.exe
-C:\Projects\window-service-example\my-service\my-service-form-app\obj\Debug\my-service-form-app.pdb
 C:\Projects\window-service-example\my-service\my-service-form-app\bin\Debug\Newtonsoft.Json.dll
 C:\Projects\window-service-example\my-service\my-service-form-app\bin\Debug\Newtonsoft.Json.pdb
 C:\Projects\window-service-example\my-service\my-service-form-app\bin\Debug\Newtonsoft.Json.xml
 C:\Projects\window-service-example\my-service\my-service-form-app\obj\Debug\my_service_form_app.MyServiceForm.resources
+C:\Projects\window-service-example\my-service\my-service-form-app\bin\Debug\MyServiceFormApp.exe.config
+C:\Projects\window-service-example\my-service\my-service-form-app\bin\Debug\MyServiceFormApp.exe
+C:\Projects\window-service-example\my-service\my-service-form-app\bin\Debug\MyServiceFormApp.pdb
+C:\Projects\window-service-example\my-service\my-service-form-app\obj\Debug\MyServiceFormApp.exe
+C:\Projects\window-service-example\my-service\my-service-form-app\obj\Debug\MyServiceFormApp.pdb

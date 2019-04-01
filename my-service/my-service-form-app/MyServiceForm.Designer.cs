@@ -41,10 +41,10 @@
             this.btn_SelectOutputFolder = new System.Windows.Forms.Button();
             this.tb_Output = new System.Windows.Forms.TextBox();
             this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
-            this.btn_UpdateSettings = new System.Windows.Forms.Button();
             this.notifyIconMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btn_UpdateSettings = new System.Windows.Forms.Button();
             this.notifyIconMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -127,16 +127,6 @@
             this.notifyIcon.Visible = true;
             this.notifyIcon.Click += new System.EventHandler(this.notifyIcon_Click);
             // 
-            // btn_UpdateSettings
-            // 
-            this.btn_UpdateSettings.Location = new System.Drawing.Point(275, 131);
-            this.btn_UpdateSettings.Name = "btn_UpdateSettings";
-            this.btn_UpdateSettings.Size = new System.Drawing.Size(191, 23);
-            this.btn_UpdateSettings.TabIndex = 8;
-            this.btn_UpdateSettings.Text = "Update Settings";
-            this.btn_UpdateSettings.UseVisualStyleBackColor = true;
-            this.btn_UpdateSettings.Click += new System.EventHandler(this.btn_UpdateSettings_Click);
-            // 
             // notifyIconMenuStrip
             // 
             this.notifyIconMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -159,6 +149,16 @@
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click_1);
             // 
+            // btn_UpdateSettings
+            // 
+            this.btn_UpdateSettings.Location = new System.Drawing.Point(275, 131);
+            this.btn_UpdateSettings.Name = "btn_UpdateSettings";
+            this.btn_UpdateSettings.Size = new System.Drawing.Size(191, 23);
+            this.btn_UpdateSettings.TabIndex = 8;
+            this.btn_UpdateSettings.Text = "Update Settings";
+            this.btn_UpdateSettings.UseVisualStyleBackColor = true;
+            this.btn_UpdateSettings.Click += new System.EventHandler(this.btn_UpdateSettings_Click);
+            // 
             // MyServiceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -175,6 +175,7 @@
             this.Controls.Add(this.label1);
             this.Name = "MyServiceForm";
             this.Text = "My Service";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MyServiceForm_FormClosing);
             this.notifyIconMenuStrip.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

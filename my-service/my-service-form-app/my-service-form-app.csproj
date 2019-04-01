@@ -7,7 +7,7 @@
     <ProjectGuid>{61E262E6-9BBA-49FD-9756-A93556EB9B4F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>my_service_form_app</RootNamespace>
-    <AssemblyName>my-service-form-app</AssemblyName>
+    <AssemblyName>MyServiceFormApp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

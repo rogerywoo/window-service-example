@@ -10,6 +10,7 @@ namespace my_service_library
     [Serializable]
     public class Settings
     {
+        public const string FORM_APP_NAME = "MyServiceFormApp";
         public const string SERVICE_NAME = "MyService";
         public const string MUTEX_APP_NAME = "MutexMyServiceFormApp";
         public const string MUTEX_MEMORY_NAME = "MutexMyServiceMemory";

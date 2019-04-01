@@ -63,26 +63,26 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_3782B05F000C4418B48C92C1B5C2004E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_496FB7F0FA7F0FECB3F905BD3AAF7A6B"
+        "MsmKey" = "8:_602E3575A1435B0DBF674FFFC0FF21D3"
         "OwnerKey" = "8:_10F306CC809D444E825DF0C9AA3F634F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_496FB7F0FA7F0FECB3F905BD3AAF7A6B"
+        "MsmKey" = "8:_602E3575A1435B0DBF674FFFC0FF21D3"
         "OwnerKey" = "8:_939D0C97C71C4A78951229BBBAFFAB8D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_496FB7F0FA7F0FECB3F905BD3AAF7A6B"
+        "MsmKey" = "8:_602E3575A1435B0DBF674FFFC0FF21D3"
         "OwnerKey" = "8:_16B1D452F88F4F75A6B424211464956B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8DC7C94B34684718BE69E584CABA6D1A"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -95,12 +95,6 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_10F306CC809D444E825DF0C9AA3F634F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_496FB7F0FA7F0FECB3F905BD3AAF7A6B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -119,6 +113,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_274D1558A1B068D816019546DFE9F1ED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_602E3575A1435B0DBF674FFFC0FF21D3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -248,7 +248,7 @@
             "Object" = "8:_939D0C97C71C4A78951229BBBAFFAB8D"
             "FileType" = "3:2"
             "InstallAction" = "3:2"
-            "Arguments" = "8:"
+            "Arguments" = "8:\"[TARGETDIR]\\\""
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
             "Identifier" = "8:_ED26A1F9_3D2A_488D_84A9_A2EA399E3A5A"
@@ -360,34 +360,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3782B05F000C4418B48C92C1B5C2004E"
-            {
-            "SourcePath" = "8:..\\my-service-library\\MyService.data"
-            "TargetName" = "8:MyService.data"
-            "Tag" = "8:"
-            "Folder" = "8:_2BDAC24DC2B74300B1B6EFB67F6AA46E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_496FB7F0FA7F0FECB3F905BD3AAF7A6B"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_602E3575A1435B0DBF674FFFC0FF21D3"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:my-service-library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_496FB7F0FA7F0FECB3F905BD3AAF7A6B"
+                    "_602E3575A1435B0DBF674FFFC0FF21D3"
                     {
                     "Name" = "8:my-service-library.dll"
                     "Attributes" = "3:512"
@@ -409,6 +389,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8DC7C94B34684718BE69E584CABA6D1A"
+            {
+            "SourcePath" = "8:..\\my-service-library\\MyService.data"
+            "TargetName" = "8:MyService.data"
+            "Tag" = "8:"
+            "Folder" = "8:_2BDAC24DC2B74300B1B6EFB67F6AA46E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -491,7 +491,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:MyService"
         "ProductCode" = "8:{9C30E386-CB79-4CC2-84D6-5D193ECFB284}"
-        "PackageCode" = "8:{F5768011-E77E-4204-A2D7-27FD161BAF84}"
+        "PackageCode" = "8:{4B796A53-C39F-413F-A050-D7400E341795}"
         "UpgradeCode" = "8:{B0260968-9067-4372-8F27-6195E18569F5}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -1040,7 +1040,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_16B1D452F88F4F75A6B424211464956B"
             {
-            "SourcePath" = "8:..\\my-service-form-app\\obj\\Release\\my-service-form-app.exe"
+            "SourcePath" = "8:..\\my-service-form-app\\obj\\Release\\MyServiceFormApp.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_946D2CDAD53541DEB6B7A179DEF332A7"

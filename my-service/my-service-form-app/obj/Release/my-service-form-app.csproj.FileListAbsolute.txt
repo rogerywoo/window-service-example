@@ -1,6 +1,3 @@
-C:\Projects\window-service-example\my-service\my-service-form-app\bin\Release\my-service-form-app.exe.config
-C:\Projects\window-service-example\my-service\my-service-form-app\bin\Release\my-service-form-app.exe
-C:\Projects\window-service-example\my-service\my-service-form-app\bin\Release\my-service-form-app.pdb
 C:\Projects\window-service-example\my-service\my-service-form-app\bin\Release\my-service-library.dll
 C:\Projects\window-service-example\my-service\my-service-form-app\bin\Release\Newtonsoft.Json.dll
 C:\Projects\window-service-example\my-service\my-service-form-app\bin\Release\my-service-library.pdb
@@ -11,6 +8,9 @@ C:\Projects\window-service-example\my-service\my-service-form-app\obj\Release\my
 C:\Projects\window-service-example\my-service\my-service-form-app\obj\Release\my-service-form-app.csproj.GenerateResource.cache
 C:\Projects\window-service-example\my-service\my-service-form-app\obj\Release\my-service-form-app.csproj.CoreCompileInputs.cache
 C:\Projects\window-service-example\my-service\my-service-form-app\obj\Release\my-service-form-app.csproj.CopyComplete
-C:\Projects\window-service-example\my-service\my-service-form-app\obj\Release\my-service-form-app.exe
-C:\Projects\window-service-example\my-service\my-service-form-app\obj\Release\my-service-form-app.pdb
 C:\Projects\window-service-example\my-service\my-service-form-app\obj\Release\my_service_form_app.MyServiceForm.resources
+C:\Projects\window-service-example\my-service\my-service-form-app\bin\Release\MyServiceFormApp.exe.config
+C:\Projects\window-service-example\my-service\my-service-form-app\bin\Release\MyServiceFormApp.exe
+C:\Projects\window-service-example\my-service\my-service-form-app\bin\Release\MyServiceFormApp.pdb
+C:\Projects\window-service-example\my-service\my-service-form-app\obj\Release\MyServiceFormApp.exe
+C:\Projects\window-service-example\my-service\my-service-form-app\obj\Release\MyServiceFormApp.pdb

@@ -21,9 +21,6 @@ namespace my_service_form_app
         public MyServiceForm()
         {
             InitializeComponent();
-
-            this.ControlBox = false;
-
         }
 
         private void btn_SelectInputFolder_Click(object sender, EventArgs e)
@@ -119,9 +116,12 @@ namespace my_service_form_app
 
         private void MyServiceForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            //e.Cancel = true;
-
-            //Hide();
+            // Only exit if Exiting from menu
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                e.Cancel = true;
+                Hide();
+            }
         }
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
