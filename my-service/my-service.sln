@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "my-service", "my-service\my-service.csproj", "{F60E0B51-6419-4B28-AE27-02A8D6DBEF48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "my-service-form-app", "my-service-form-app\my-service-form-app.csproj", "{61E262E6-9BBA-49FD-9756-A93556EB9B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "my-service-library", "my-service-library\my-service-library.csproj", "{1AE4AEAD-CC08-42D9-982A-C13A2DDFF066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "my-service-form-read-app", "my-service-form-read-app\my-service-form-read-app.csproj", "{45548618-A738-4E62-9D14-5A301886E569}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "my-service-installer", "my-service-installer\my-service-installer.vdproj", "{58E7FBD1-6E50-4BAB-9735-36FE65DC7491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "my-service-setup", "my-service-setup\my-service-setup.csproj", "{03817BED-E8D9-4478-8E52-CB88C01525B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F60E0B51-6419-4B28-AE27-02A8D6DBEF48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60E0B51-6419-4B28-AE27-02A8D6DBEF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60E0B51-6419-4B28-AE27-02A8D6DBEF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60E0B51-6419-4B28-AE27-02A8D6DBEF48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E262E6-9BBA-49FD-9756-A93556EB9B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E262E6-9BBA-49FD-9756-A93556EB9B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E262E6-9BBA-49FD-9756-A93556EB9B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E262E6-9BBA-49FD-9756-A93556EB9B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE4AEAD-CC08-42D9-982A-C13A2DDFF066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE4AEAD-CC08-42D9-982A-C13A2DDFF066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE4AEAD-CC08-42D9-982A-C13A2DDFF066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE4AEAD-CC08-42D9-982A-C13A2DDFF066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45548618-A738-4E62-9D14-5A301886E569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45548618-A738-4E62-9D14-5A301886E569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45548618-A738-4E62-9D14-5A301886E569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45548618-A738-4E62-9D14-5A301886E569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E7FBD1-6E50-4BAB-9735-36FE65DC7491}.Debug|Any CPU.ActiveCfg = Debug
+		{58E7FBD1-6E50-4BAB-9735-36FE65DC7491}.Release|Any CPU.ActiveCfg = Release
+		{03817BED-E8D9-4478-8E52-CB88C01525B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03817BED-E8D9-4478-8E52-CB88C01525B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03817BED-E8D9-4478-8E52-CB88C01525B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03817BED-E8D9-4478-8E52-CB88C01525B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D8CC040-48C0-48B2-B624-4970DABB2F6F}
+	EndGlobalSection
+EndGlobal
