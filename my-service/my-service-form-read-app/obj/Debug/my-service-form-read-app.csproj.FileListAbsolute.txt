@@ -12,5 +12,5 @@ C:\Projects\window-service-example\my-service\my-service-form-read-app\bin\Debug
 C:\Projects\window-service-example\my-service\my-service-form-read-app\bin\Debug\my-service-library.pdb
 C:\Projects\window-service-example\my-service\my-service-form-read-app\bin\Debug\Newtonsoft.Json.pdb
 C:\Projects\window-service-example\my-service\my-service-form-read-app\bin\Debug\Newtonsoft.Json.xml
-C:\Projects\window-service-example\my-service\my-service-form-read-app\obj\Debug\my-service-form-read-app.csprojAssemblyReference.cache
 C:\Projects\window-service-example\my-service\my-service-form-read-app\obj\Debug\my-service-form-read-app.csproj.CopyComplete
+C:\Projects\window-service-example\my-service\my-service-form-read-app\obj\Debug\my-service-form-read-app.csprojAssemblyReference.cache

@@ -19,7 +19,12 @@ namespace my_service_library
             {
                 string fileName = Path.GetFileName(filePath);
 
-                File.Copy(filePath, string.Format("{0}\\{1}", outputFolder, fileName), true);
+                string newFilePath = string.Format("{0}\\{1}", outputFolder, fileName);
+
+                if (!File.Exists(newFilePath))
+                {
+                    File.Copy(filePath, newFilePath);
+                }
             }           
         }
     }

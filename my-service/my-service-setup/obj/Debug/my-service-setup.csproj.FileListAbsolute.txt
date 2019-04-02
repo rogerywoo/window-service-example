@@ -8,3 +8,5 @@ C:\Projects\window-service-example\my-service\my-service-setup\obj\Debug\my-serv
 C:\Projects\window-service-example\my-service\my-service-setup\obj\Debug\my-service-setup.csproj.CopyComplete
 C:\Projects\window-service-example\my-service\my-service-setup\obj\Debug\my-service-setup.exe
 C:\Projects\window-service-example\my-service\my-service-setup\obj\Debug\my-service-setup.pdb
+C:\Projects\window-service-example\my-service\my-service-setup\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Projects\window-service-example\my-service\my-service-setup\obj\Debug\my-service-setup.csproj.ResolveComReference.cache

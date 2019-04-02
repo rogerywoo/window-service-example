@@ -1,0 +1,9 @@
+C:\Projects\window-service-example\my-service\my-service-remove\bin\Debug\my-service-remove.exe.config
+C:\Projects\window-service-example\my-service\my-service-remove\bin\Debug\my-service-remove.exe
+C:\Projects\window-service-example\my-service\my-service-remove\bin\Debug\my-service-remove.pdb
+C:\Projects\window-service-example\my-service\my-service-remove\bin\Debug\my-service-library.dll
+C:\Projects\window-service-example\my-service\my-service-remove\bin\Debug\my-service-library.pdb
+C:\Projects\window-service-example\my-service\my-service-remove\obj\Debug\my-service-remove.csproj.CoreCompileInputs.cache
+C:\Projects\window-service-example\my-service\my-service-remove\obj\Debug\my-service-remove.csproj.CopyComplete
+C:\Projects\window-service-example\my-service\my-service-remove\obj\Debug\my-service-remove.exe
+C:\Projects\window-service-example\my-service\my-service-remove\obj\Debug\my-service-remove.pdb

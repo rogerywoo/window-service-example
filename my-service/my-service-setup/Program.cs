@@ -14,8 +14,10 @@ namespace my_service_setup
     class Program
     {
         const string MY_NAME = "My-Service-Setup";
+
         static void Main(string[] args)
         {
+            string workingDir = args[0];
             EventLog eventLog = new EventLog();
             if (!EventLog.SourceExists(MY_NAME))
             {
@@ -24,14 +26,16 @@ namespace my_service_setup
             eventLog.Source = MY_NAME;
             eventLog.Log = "Application";
 
+            string filePath;
             try
             {
                 StartService();
                 SetupFileAccess();
 
-                string filePath = String.Format("{0}//{1}.exe", args[0], Settings.FORM_APP_NAME);
-                StartFormApp(filePath);
+                filePath = String.Format("{0}//{1}.exe", workingDir, Settings.FORM_APP_NAME);
+                //StartFormApp(filePath);
 
+                AddStartup(filePath, workingDir);
             }
             catch (Exception ex)
             {
@@ -76,6 +80,21 @@ namespace my_service_setup
             };
 
             process.Start();
+        }
+
+        static void AddStartup(string fileName, string workingDir)
+        {
+            IWshRuntimeLibrary.WshShell wsh = new IWshRuntimeLibrary.WshShell();
+            string linkName = String.Format(@"\{0}.lnk", Settings.FORM_APP_NAME);
+            IWshRuntimeLibrary.IWshShortcut shortcut = wsh.CreateShortcut(
+                Environment.GetFolderPath(Environment.SpecialFolder.CommonStartup) + linkName) as IWshRuntimeLibrary.IWshShortcut;
+            shortcut.Arguments = "";
+            shortcut.TargetPath = fileName;
+            shortcut.WindowStyle = 1;
+            shortcut.Description = Settings.FORM_APP_NAME;
+            shortcut.WorkingDirectory = workingDir + @"\";
+            //shortcut.IconLocation = "specify icon location";
+            shortcut.Save();
         }
     }
 }

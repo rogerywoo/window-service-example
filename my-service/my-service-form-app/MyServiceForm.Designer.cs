@@ -45,6 +45,9 @@
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_UpdateSettings = new System.Windows.Forms.Button();
+            this.btn_StopService = new System.Windows.Forms.Button();
+            this.btn_StartService = new System.Windows.Forms.Button();
+            this.btn_RestartService = new System.Windows.Forms.Button();
             this.notifyIconMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,7 +85,7 @@
             // 
             // btn_Run
             // 
-            this.btn_Run.Location = new System.Drawing.Point(275, 186);
+            this.btn_Run.Location = new System.Drawing.Point(76, 388);
             this.btn_Run.Name = "btn_Run";
             this.btn_Run.Size = new System.Drawing.Size(191, 23);
             this.btn_Run.TabIndex = 4;
@@ -113,7 +116,7 @@
             // 
             // tb_Output
             // 
-            this.tb_Output.Location = new System.Drawing.Point(166, 246);
+            this.tb_Output.Location = new System.Drawing.Point(166, 274);
             this.tb_Output.Multiline = true;
             this.tb_Output.Name = "tb_Output";
             this.tb_Output.Size = new System.Drawing.Size(422, 72);
@@ -159,11 +162,47 @@
             this.btn_UpdateSettings.UseVisualStyleBackColor = true;
             this.btn_UpdateSettings.Click += new System.EventHandler(this.btn_UpdateSettings_Click);
             // 
+            // btn_StopService
+            // 
+            this.btn_StopService.Location = new System.Drawing.Point(275, 161);
+            this.btn_StopService.Name = "btn_StopService";
+            this.btn_StopService.Size = new System.Drawing.Size(191, 23);
+            this.btn_StopService.TabIndex = 9;
+            this.btn_StopService.Text = "Stop Service";
+            this.btn_StopService.UseVisualStyleBackColor = true;
+            this.btn_StopService.Visible = false;
+            this.btn_StopService.Click += new System.EventHandler(this.btn_StopService_Click);
+            // 
+            // btn_StartService
+            // 
+            this.btn_StartService.Location = new System.Drawing.Point(275, 191);
+            this.btn_StartService.Name = "btn_StartService";
+            this.btn_StartService.Size = new System.Drawing.Size(191, 23);
+            this.btn_StartService.TabIndex = 10;
+            this.btn_StartService.Text = "Start Service";
+            this.btn_StartService.UseVisualStyleBackColor = true;
+            this.btn_StartService.Visible = false;
+            this.btn_StartService.Click += new System.EventHandler(this.btn_StartService_Click);
+            // 
+            // btn_RestartService
+            // 
+            this.btn_RestartService.Location = new System.Drawing.Point(275, 220);
+            this.btn_RestartService.Name = "btn_RestartService";
+            this.btn_RestartService.Size = new System.Drawing.Size(191, 23);
+            this.btn_RestartService.TabIndex = 11;
+            this.btn_RestartService.Text = "ReStart Service";
+            this.btn_RestartService.UseVisualStyleBackColor = true;
+            this.btn_RestartService.Visible = false;
+            this.btn_RestartService.Click += new System.EventHandler(this.btn_RestartService_Click);
+            // 
             // MyServiceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_RestartService);
+            this.Controls.Add(this.btn_StartService);
+            this.Controls.Add(this.btn_StopService);
             this.Controls.Add(this.btn_UpdateSettings);
             this.Controls.Add(this.tb_Output);
             this.Controls.Add(this.btn_SelectOutputFolder);
@@ -176,6 +215,7 @@
             this.Name = "MyServiceForm";
             this.Text = "My Service";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MyServiceForm_FormClosing);
+            this.Load += new System.EventHandler(this.MyServiceForm_Load);
             this.notifyIconMenuStrip.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -199,6 +239,9 @@
         private System.Windows.Forms.ContextMenuStrip notifyIconMenuStrip;
         private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.Button btn_StopService;
+        private System.Windows.Forms.Button btn_StartService;
+        private System.Windows.Forms.Button btn_RestartService;
     }
 }
 
