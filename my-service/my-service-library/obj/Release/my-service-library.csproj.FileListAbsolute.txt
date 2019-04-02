@@ -1,5 +1,0 @@
-C:\Projects\window-service-example\my-service\my-service-library\bin\Release\my-service-library.dll
-C:\Projects\window-service-example\my-service\my-service-library\bin\Release\my-service-library.pdb
-C:\Projects\window-service-example\my-service\my-service-library\obj\Release\my-service-library.csproj.CoreCompileInputs.cache
-C:\Projects\window-service-example\my-service\my-service-library\obj\Release\my-service-library.dll
-C:\Projects\window-service-example\my-service\my-service-library\obj\Release\my-service-library.pdb
